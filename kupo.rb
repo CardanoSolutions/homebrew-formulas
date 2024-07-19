@@ -1,8 +1,11 @@
 class Kupo < Formula
   desc "Fast, lightweight & configurable chain-index for Cardano."
-  homepage "https://cardanosolutions.github.io/kupo/"
+  homepage "https://cardanosolutions.github.io/kupo"
   version "2.9.0"
   license "MPL-2.0"
+
+  uses_from_macos "bzip2"
+  uses_from_macos "libffi"
 
   if OS.mac?
     if Hardware::CPU.arm?
