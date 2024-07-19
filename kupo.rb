@@ -7,7 +7,7 @@ class Kupo < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/CardanoSolutions/kupo/releases/download/v2.9/kupo-v2.9.0-aarch64-osx.zip"
-      sha256 "8bc7c11d9ea67008745a8b0a650f29ba0c99a37987a76ef4d9e029ec09ea9a7a"
+      sha256 "5b413a292cc3f9286160c9ba3964bb75dbcf31755a091719dbc986c0fd014b75"
     end
   end
   if OS.linux?
