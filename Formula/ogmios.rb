@@ -1,7 +1,7 @@
 class Ogmios < Formula
   desc "A WebSocket JSON/RPC bridge for Cardano."
   homepage "https://ogmios.dev"
-  version "6.6.2"
+  version "6.7.0"
   license "MPL-2.0"
 
   uses_from_macos "bzip2"
@@ -9,18 +9,18 @@ class Ogmios < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/CardanoSolutions/ogmios/releases/download/v6.6.2/ogmios-v6.6.2-aarch64-macos.zip"
-      sha256 "61bf93d2df15e44f4ccd0deb61dbb10727a722b93537285886f0c5731f8325d6"
+      url "https://github.com/CardanoSolutions/ogmios/releases/download/v6.7.0/ogmios-v6.7.0-aarch64-macos.zip"
+      sha256 "3911a23e5b53bbfc70310e776e4f2ce1b555a9176f39fb67aee0830979860b3f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/CardanoSolutions/ogmios/releases/download/v6.6.2/ogmios-v6.6.2-aarch64-linux.zip"
-      sha256 "ca394fd619c496ccecbbeccebf7e24b96c898eeb81f54f25967077340fd1f054"
+      url "https://github.com/CardanoSolutions/ogmios/releases/download/v6.7.0/ogmios-v6.7.0-aarch64-linux.zip"
+      sha256 "ff85b0860c1e0999a244f1bea3b3c3bd0face02bafda6cce47085ffc9ecf84d6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/CardanoSolutions/ogmios/releases/download/v6.6.2/ogmios-v6.6.2-x86_64-linux.zip"
-      sha256 "71e49cd2b34fc807e5e3ef58510df08e6d331fea75e2f9182e17ac39d920b808"
+      url "https://github.com/CardanoSolutions/ogmios/releases/download/v6.7.0/ogmios-v6.7.0-x86_64-linux.zip"
+      sha256 "8b69971ef7961d8ec7dbd4245f9152213ee8f4f07694a4198cfbae08460cfc9e"
     end
   end
 
